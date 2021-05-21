@@ -1,0 +1,20 @@
+・https://github.com/ZheC/tf-pose-estimation
+　を参考にプロジェクトを作業フォルダにgit clone
+・モデルファイルダウンロード
+　$ cd models/graph/cmu_640x360
+　$ bash download.sh
+　$ cd models/graph/cmu_640x480
+　$ bash download.sh
+・仮想環境作成
+・ライブラリインストール
+　・numpy==1.16.5（これは最新版でもいいかも）
+　・tensorflow==1.14.0
+　・matplotlib
+　・scipy
+　・opencv-python
+・run.pyのargs関係の変数を絶対パスで指定するよう修正
+　・モデルパス
+　・画像パス
+・run.py実行
+
+
